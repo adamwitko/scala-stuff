@@ -5,7 +5,5 @@ object ScalaStuffCurry {
 
   def main(args: Array[String]): Unit = {
     val result = curry((x: Int, y: Int) => x + y)
-
-    println(result)
   }
 }
